@@ -1,22 +1,55 @@
 *{
-  
-    background-image:url("lastone.webp");
-    background-size: cover;
+    background-image: url("brown.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+
+}
+#heading{
+   text-align: center;
+   margin: 100px;
+   color: brown;
+
 }
 .name{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: left;
-    color: black;
-    margin: 120px 40px 70px 100px;
+    padding: 40px 100px;
+    margin: 40px 50px 0 50px;
 }
-.style{
-    font-size: 16px;
-    color: black;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 100px 40px 80px 40px;
+#main{
+    display: flex;
 }
-.details{
-    font-family:'Times New Roman', Times, serif;
+#left{
+    width: 50%;
+}
+#image{
+    width: 50%;
+    border: 5px solid burlywood;
+    padding:3px;
+    margin: 5px;
+    
+}
+a{
+    text-decoration: none;
+}
+.about{
+    font-size:25px;
+    padding: 20px 60px; 
+    margin: 50px 40px;
+    display: flex;
+    
+}
+.two{
+    width: 50%;
+    margin: 10px;
+}
+.right{
+    width:50%;
+}
+.styles{
+    font-size: 25px;
+    background-color: burlywood;
+    color:brown;
+    border-radius: 25px;
+    margin: 10px;
 }
