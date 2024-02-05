@@ -1,0 +1,22 @@
+*{
+  
+    background-image:url("lastone.webp");
+    background-size: cover;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: black;
+    margin: 120px 40px 70px 100px;
+}
+.style{
+    font-size: 16px;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 100px 40px 80px 40px;
+}
+.details{
+    font-family:'Times New Roman', Times, serif;
+}
